@@ -26,3 +26,5 @@ RUN [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && make -C $VIBPATH
 
 
 ####################   SETUP NGINX  #######################
+
+RUN cp -r $VIBPATH/build/* /usr/share/nginx/html/
