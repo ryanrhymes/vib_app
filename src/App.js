@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
+import { Button } from 'semantic-ui-react'
 import logo from './logo.svg';
 import './App.css';
-
-import Auth from './auth/auth.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      const auth = new Auth();
-      auth.login();
+        <Button primary>Primary</Button>
+        <Button secondary>Secondary</Button>
       </div>
     );
   }
